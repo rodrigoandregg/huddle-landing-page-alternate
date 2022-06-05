@@ -6,6 +6,7 @@
     --font2: 'Open Sans', sans-serif;
     /* colors */
     --primary: hsl(322, 100%, 66%);
+    --active: hsl(322, 100%, 71%);
     --herobg: hsl(193, 100%, 96%);
     --mainbg: hsl(0, 0%, 100%);
     --heading: hsl(192, 100%, 9%);
@@ -23,7 +24,25 @@ body {
     font-size: 18px;
 }
 
-/* footer */
+.flex {
+    display: flex;
+    
+}
+
+.hero {
+    background: url(../images/bg-hero-mobile.svg) no-repeat center top, var(--herobg);
+    background-size: cover;
+}
+
+
+
+.hero__nav {
+
+}
+
+.footer {
+    background-color: var(--heading);
+}
 
 .attribution {
     font-size: 11px;

@@ -123,6 +123,11 @@ a {
     padding: 30px 20px 0;
 }
 
+.nothing {
+    display: none;
+    position: absolute;
+}
+
 .articles__card, .section__ready {
     border-radius: 20px;
     box-shadow: 0 0 10px var(--shadow);
